@@ -14,7 +14,7 @@ body{
 .welcome-color{
     color:rgb(231, 99, 121);
 }
-section{
+.section-flex{
     display: flex;
     margin-bottom: 150px;
 }
@@ -23,7 +23,7 @@ section{
     padding:2%;
 }
 .half-width img{
-    width: 80%;
+    width: 60%;
 }
 .link-button{
     text-decoration: none;
@@ -36,4 +36,46 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.side-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+}
+.bottom-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+.experience-item {
+    box-shadow: 10px 10px 30px grey;
+    width: 40%;
+    margin-left: 15%;
+    margin-right: 10%;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+#border-design-full-stack{
+    border-left: 7px solid;
+    /*border-image: linear-gradient(#833ab4 , #fd1d1d , #fcb045);*/
+    border-image-slice: 1;
+    background: linear-gradient(to right, red, orange);
+    padding: 10px;
+    border-left: 8px solid transparent;
+
+}
+#border-design-junior{
+    background: 
+     /*linear-gradient(white,white) padding-box, /*this is your grey background*/
+     linear-gradient(to right, #833ab4, #fd1d1d , #fcb045 ) border-box;
+    /*color: #313149;*/
+    padding:10px;
+    border-left: 8px solid transparent;
+    Border-radius:5px;
+    display:inline-block;
+}
+    
+
+footer{
+    text-align:center;
 }
